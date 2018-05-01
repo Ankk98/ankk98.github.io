@@ -49,9 +49,55 @@
 
 }
 
+
 .skill-image{
   width: 20%;
     float: left;
     padding: 15px;
     border: 1px solid white;
+}
+
+.footer{
+
+}
+
+.w3-card-4,.w3-hover-shadow:hover{
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+input[type=text], select, textarea , input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-container {
+    border-radius: 5px;
+    padding: 20px;
+    max-width:400px;
+	  width:100%;
+	  margin:0 auto;
+	  position:relative;
+    background-color: white;
+}
+#contact{
+  color: black;
 }
