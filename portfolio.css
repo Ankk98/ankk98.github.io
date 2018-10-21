@@ -1,4 +1,4 @@
-.body {
+o .body {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
@@ -100,4 +100,19 @@ input[type=submit]:hover {
 }
 #contact{
   color: black;
+}
+.intro_text {
+  padding-left: 4em;
+  padding-right: 4em;
+  font-family: 'Dosis', sans-serif;
+  color: #8eb8e5;
+}
+.profile-pic{
+  border-radius: 49% 51% 79% 21% / 58% 57% 43% 42% ;
+}
+#section-2{
+  background-color: #70798c;
+}
+h3{
+  color: #b7c3f3;
 }
