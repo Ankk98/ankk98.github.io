@@ -140,6 +140,21 @@ ul.sidenav li a:hover:not(.active) {
   color: rgb(30, 75, 215);
 }
 
+ul.sidenav li img {
+  display: block;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+
+ul.sidenav li img.active {
+  background-color: #444;
+  color:rgb(30, 75, 215);
+}
+
+ul.sidenav li img:hover:not(.active) {
+  color: rgb(30, 75, 215);
+}
+
 div.content {
   margin-left: 5%;
   padding: 1px 16px;
