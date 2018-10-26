@@ -8,67 +8,27 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="author" content="Ankit Khandelwal" />
   <meta name="description" content="Portfolio webpage of Ankit Khandelwal." />
-  <meta name="keywords" content="portfolio,ankit,khandelwal,fullpage" />
+  <meta name="keywords" content="portfolio, ankit, khandelwal, ankit-khandelwal, ankk98" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Resource-type" content="Document">
-
-  <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.css" />
+  
   <link rel="stylesheet" type="text/css" href="portfolio.css" />
-
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-
-  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-  <script src="node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
-
-
-  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-  <script type="text/javascript" src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
-
-  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
 
   <link rel="icon" type="image/png" href="favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        //sectionsColor: ['#000000']
-      });
-    });
-  </script>
 
 </head>
 
 <body>
 
-  <!-- implementing fullPage.js sections -->
-  <div id="fullpage">
-    <div class="section dark" id="section-1">
-      Some section
-      <div class="canvas" id="canvas-bg">
-        <canvas id="myCanvas" width="1920" height="1080"></canvas>
-      </div>
-
-      <div class="flex">
-        <div class="text">
-          Hi !
-          <br> I am <em><b><span class="highlight">Ankit Khandelwal</span></b></em>
-          <br> an Open source enthusiast.
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="section light" id="section-2">
+  
+    <div class="" id="intro">
       <h3>Introduction</h3>
       <!-- TODO: intro -->
       <div class="" id="left">
           <img src="images/profile.jpg" alt="Ankit" class="profile-pic">
       </div>
       <div class="" id="right">
-        <div class="intro_text">
+        <div class="intro-text">
           I am a learning developer who is passionate about technology and wish to work with a great team.
           <br>
           I am a sophomore student at JIIT Noida who likes to solve challenging problems. I am flexible with working in different fields of computer science.
@@ -80,43 +40,7 @@
       </div>
     </div>
 
-
-    <div class="section dark" id="section-3">
-      Skills
-      <!-- TODO: flexbox implementation -->
-      <!-- -->
-    </div>
-
-
-
-    <div class="section light" id="section-4">
-      Projects
-      <!-- TODO: project details -->
-      <div class="slide" data-anchor="slide1">
-        <div class="project" id="project-1">
-          PHP Project
-        </div>
-      </div>
-      <div class="slide" data-anchor="slide2">
-        <div class="project" id="project-2">
-          Data Structure Project
-        </div>
-      </div>
-      <div class="slide" data-anchor="slide3">
-        <div class="project" id="project-3">
-          GCTC Website
-        </div>
-      </div>
-      <div class="slide" data-anchor="slide4">
-        <div class="project" id="project-1">
-          Portfolio
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="section dark" id="section-5">
+    <div class="" id="contact-me">
       Links
       <!-- TODO: flexbox implementation -->
       <!--  https://github.com/Ankk98
@@ -130,11 +54,12 @@
     </div>
 
 
-    <div class="section light" id="section-6">Education & other</div>
+    <div class="" id="education">
+      Education & other
+    </div>
 
-
-    <div class="section dark" id="section-7">
-      <div class="container flex form-container">
+    <div class="" id="contact-form">
+      <div class="container">
         <div id="contact">CONTACT<hr></div>
         <div class="highlight waypoint">Have a question or want to work together?<br><br></div>
         <form class="waypoint" id="contact-form" action="https://formspree.io/ankk98@gmail.com" method="POST">
@@ -144,15 +69,11 @@
           <input class="button" type="submit" id="submit" value=SUBMIT>
         </form>
       </div>
-      <div class="footer" id="footer">
-        <p>Made by ankk98 - Ankit Khandelwal</p>
-      </div>
-
     </div>
-  </div>
-
-
-
+ 
+    <div class="footer" id="footer">
+        <p>Made by ankk98 - Ankit Khandelwal</p>
+    </div>
 
 </body>
 

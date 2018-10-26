@@ -9,14 +9,6 @@ o .body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  background: url("images/filler.png") center center/cover;
-}
 
 .flex {
   display: flex;
@@ -26,7 +18,7 @@ o .body {
 }
 
 .highlight {
-  color: #1b68e5;
+  color: #1d6ceb;
 }
 
 .text {
@@ -110,9 +102,7 @@ input[type=submit]:hover {
 .profile-pic{
   border-radius: 49% 51% 79% 21% / 58% 57% 43% 42% ;
 }
-#section-2{
-  background-color: #70798c;
-}
+
 h3{
   color: #b7c3f3;
 }
