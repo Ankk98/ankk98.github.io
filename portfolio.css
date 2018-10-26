@@ -117,7 +117,7 @@ ul.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 5%;
   background-color: #181818;
   position: fixed;
   height: 100%;
@@ -126,25 +126,25 @@ ul.sidenav {
 
 ul.sidenav li a {
   display: block;
-  color: #000;
+  color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 ul.sidenav li a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #444;
+  color:rgb(30, 75, 215);
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  color: rgb(30, 75, 215);
 }
 
 div.content {
-  margin-left: 25%;
+  margin-left: 5%;
   padding: 1px 16px;
   height: 1000px;
+  background-color: #444;
 }
 
 @media screen and (max-width: 900px) {
