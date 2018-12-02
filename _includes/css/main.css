@@ -93,6 +93,21 @@ header .container {
     padding-bottom: 15px;
 }
 
+#about .container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#interests .container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#contact .container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -116,6 +131,21 @@ header .intro-text .motto {
     header .container {
         padding-top: 150px;
         padding-bottom: 90px;
+    }
+
+    #about .container {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #interests .container {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #contact .container {
+        padding-top: 35px;
+        padding-bottom: 30px;
     }
 
     header .intro-text .name {
