@@ -19,8 +19,8 @@ name: Ankit Khandelwal
 email: ankk98@gmail.com
 description: This is web portfolio of ankk98 built with jekyll.
 keywords: "Software Engineer, Python, JavaScript, Deep Learning, Startups, Versatile, Open Source"
-skills: ""
-baseurl: "/" # the subpath of your site, e.g. /blog
+skills: "Versatile"
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ankk98.github.io" # the base hostname & protocol for your site, e.g. http://ankk98.github.io
 
 social:
