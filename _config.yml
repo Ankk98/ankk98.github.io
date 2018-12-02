@@ -13,34 +13,36 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ankk98 web portfolio
+
+title: Ankk98 Web Portfolio
+name: Ankit Khandelwal
 email: ankk98@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: This is web portfolio of ankk98 built with jekyll.
+keywords: "Software Engineer, Python, JavaScript, Deep Learning, Startups, Versatile, Open Source"
+skills: ""
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://ankk98.github.io" # the base hostname & protocol for your site, e.g. http://ankk98.github.io
-twitter_username: ankk98
-github_username:  Ankk98
+
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/ankk98/
+  - title: medium
+    url: https://medium.com/@ankk98
+  - title: twitter
+    url: https://twitter.com/ankk98
+  - title: github
+    url: https://github.com/Ankk98
+
+color:
+  primary: 2196F3
+  primary-rgb: "33, 150, 243"
+  secondary: 285172
+  secondary-dark: 29455b
+  section-tout: eaf1f1
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-collections:
-  authors:
-    output: true
+permalink: pretty
