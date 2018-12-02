@@ -109,33 +109,34 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2.2em;
+    font-size: 2.5em;
     font-weight: 700;
+    /* margin-bottom: 0; */
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+header .intro-text .motto {
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
-        padding-bottom: 40px;
+        padding-bottom: 90px;
     }
 
     header .intro-text .name {
-        font-size: 2.75em;
+        font-size: 3em;
     }
 
-    header .intro-text .skills {
+    header .intro-text .motto {
         font-size: 1.5em;
     }
 }
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -149,7 +150,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 8px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -475,8 +476,8 @@ header img.profile-img {
     border: 0.4em solid rgba(255, 255, 255, 0.75);
 }
 
-header .intro-text .name {
+/* header .intro-text .name {
     font-size: 2.25em;
-}
+} */
 
 
